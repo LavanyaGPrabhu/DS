@@ -83,7 +83,7 @@ int main(){
                 if(isEmpty())
                     printf("Stack Underflow.\n");
                 else
-                    printf("Stack is not empty.\n");;
+                    printf("Stack is not empty.\n");
                 break;
             case 5:
                 peek();
