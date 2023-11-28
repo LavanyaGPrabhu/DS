@@ -75,15 +75,15 @@ int main(){
                 break;
             case 3:
                 if(isFull())
-                    printf("Stack Overflow");
+                    printf("Stack Overflow.\n");
                 else
-                    printf("Stack is not full.");
+                    printf("Stack is not full.\n");
                 break;
             case 4:
                 if(isEmpty())
-                    printf("Stack Underflow");
+                    printf("Stack Underflow.\n");
                 else
-                    printf("Stack is not empty.");;
+                    printf("Stack is not empty.\n");;
                 break;
             case 5:
                 peek();
